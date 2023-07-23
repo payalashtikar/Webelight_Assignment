@@ -1,0 +1,63 @@
+.homepage-container{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    margin: 25px;
+}
+.btn{
+    margin: 10px;
+    padding: 10px;
+    position: fixed;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.data{
+    margin: 20 auto;
+}
+.btn1-containe,.btn2-container,.btn3-containe{
+    /* width: 500px; */
+    top: 0;
+    position: sticky;
+}
+/* --------------- */
+.container {
+    display: flex;
+    justify-content: center; /* Horizontally center the buttons */
+  }
+  
+  .btn1-container,
+  .btn2-container,
+  .btn3-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn1-container,
+  .btn2-container {
+    margin-right: 20px;
+  }
+  .btn {
+    margin-bottom: 10px;
+  }
+.btn1-container,
+.btn2-container,
+.btn3-container {
+  position: relative;
+}
+.display {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: flex;
+  justify-content: left;
+  text-align: left;
+}
+.btnn1:hover , .btnn2:hover , .btnn3:hover{
+    background-color: black;
+}

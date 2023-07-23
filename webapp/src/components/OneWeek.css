@@ -1,0 +1,45 @@
+.table-container {
+    justify-content: left;
+    height: 100vh; 
+}
+.btn1{
+    float: right;
+    top: 10px;
+}
+.btn{
+    top: 10px;
+}
+#formcontainer{
+    width: 150px;
+    top: 15px;
+}
+.data-container{
+    width: 800px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+}
+.avtar{
+    display: inline-block;
+}
+.avtar img{
+    left: 0;
+}
+.details-container{
+    display: inline-block;
+    top: 0;
+    margin-left:10px ;
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+}
+.body1{
+    left: 0;
+}
+.pag-btn{
+    display: flex;
+    justify-content: flex-start;
+}
