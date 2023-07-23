@@ -1,0 +1,17 @@
+.repo-container{
+    margin: 10px auto;
+    /* border: 1px solid black; */
+    padding: 20px;
+    /* width: 300px; */
+    /* margin: 10px; */
+}
+.repo-container li{
+    line-height: 25px;
+    font-size: medium;
+    left: 0;
+    text-align: left
+}
+li a{
+    left: 0;
+    /* text-align: left */
+}
